@@ -22,7 +22,7 @@ app.post("/contact", (req, res) => {
 
   // Email options
   const msg = {
-    to: "hammadnaseer2230@gmail.com", // Company email address
+    to: "muhammadnaseer@rnts.services", // Company email address
     from: "hammadnaseer2230@gmail.com", // Verified sender email in SendGrid
     subject: "New Contact Form Submission",
     text: `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nMessage: ${message}`,
